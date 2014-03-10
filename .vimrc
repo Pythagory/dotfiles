@@ -13,6 +13,9 @@ set background=light
 syntax on
 filetype on
 
+"line numbers are good
+set number
+
 "code formatting
 set expandtab
 set tabstop=2
