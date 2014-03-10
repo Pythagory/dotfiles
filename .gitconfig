@@ -1,0 +1,8 @@
+[user]
+	name = Joshua Rose
+	email = joshrose@uoregon.edu
+[http]
+	postBuffer = 524288000
+	sslVerify = true
+[core]
+	filemode = false
