@@ -16,6 +16,9 @@ filetype on
 "line numbers are good
 set number
 
+"Always how status bar
+set laststatus=2
+
 "code formatting
 set expandtab
 set tabstop=2
