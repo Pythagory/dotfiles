@@ -41,4 +41,4 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 
 " Automatically strip trailing whitespace on "safe" files
-autocmd BufWritePre *.php,*.lisp,*.py,*.js,*.html,*.css :call <SID>StripTrailingWhitespaces()
+autocmd BufWritePre *.php,*.lisp,*.py,*.js,*.html,*.css,*.scss :call <SID>StripTrailingWhitespaces()
