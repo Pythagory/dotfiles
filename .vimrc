@@ -19,6 +19,9 @@ set number
 "Always how status bar
 set laststatus=2
 
+"Show incomplete commands
+set showcmd
+
 "code formatting
 set expandtab
 set tabstop=2
