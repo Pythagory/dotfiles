@@ -48,3 +48,8 @@ endfunction
 
 " Automatically strip trailing whitespace on "safe" files
 autocmd BufWritePre *.php,*.lisp,*.py,*.js,*.html,*.css,*.scss :call <SID>StripTrailingWhitespaces()
+
+" Call out the 81st column of wide lines. (Conway - More Instantly Better Vim)
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
